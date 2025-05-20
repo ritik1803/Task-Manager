@@ -4,7 +4,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+<<<<<<< HEAD
     "dev": "nodemon app.js"
+=======
+    "test": "echo \"Error: no test specified\" && exit 1"
+>>>>>>> 2e84a7f4eae470a565c8e148b7cc4da2bd9f4506
   },
   "keywords": [],
   "author": "",
@@ -21,7 +25,10 @@
     "http-status-codes": "^2.3.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
+<<<<<<< HEAD
     "node_project": "file:",
+=======
+>>>>>>> 2e84a7f4eae470a565c8e148b7cc4da2bd9f4506
     "nodemon": "^3.1.4",
     "shortid": "^2.2.16"
   }
