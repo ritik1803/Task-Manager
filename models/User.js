@@ -1,4 +1,3 @@
-const { type } = require('express/lib/response');
 const mongoose = require('mongoose');
 
 mongoose.connect('mongodb+srv://singhritik2251:RO8VUXKEs4nOJyT4@cluster0.ijongm1.mongodb.net/first?retryWrites=true&w=majority&appName=Cluster0')
