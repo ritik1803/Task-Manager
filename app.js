@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require('express');
 const path = require('path');
 const userModel= require('./models/User');
@@ -275,7 +274,6 @@ app.get('/profile/download/:id', isLoggedIn, async (req, res) => {
 app.listen(3001, () => {
     console.log('Server running on port 3001');
 });
-=======
 const express = require('express');
 const path = require('path');
 const userModel= require('./models/User');
@@ -549,4 +547,3 @@ app.get('/profile/download/:id', isLoggedIn, async (req, res) => {
 app.listen(3000, () => {
     console.log('Server running on port 3000');
 });
->>>>>>> 2e84a7f4eae470a565c8e148b7cc4da2bd9f4506
